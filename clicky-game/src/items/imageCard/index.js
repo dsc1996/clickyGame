@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function container(props) {
+function ImageCard(props) {
     return (
         <span onClick={() => props.scoring(props.name)} className="scoring">
             <div className="card">
@@ -13,4 +13,4 @@ function container(props) {
     );
 }
 
-export default container;
+export default ImageCard;
