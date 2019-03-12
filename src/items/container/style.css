@@ -1,0 +1,24 @@
+    .container {
+    padding-top: 10px;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    background-color: #232323;
+  }
+  
+  h3 {
+    color: red;
+  }
+  
+  .scoreDiv {
+    width: 100%;
+    text-align: center;
+    color: red;
+  }
