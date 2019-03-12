@@ -17,20 +17,16 @@ function shuffle(array) {
 
 
 class App extends Component {
-  // Setting the component's initial state
-  // Setting this.state.friends to the friends json array
   state = {
     pic,
-    //create array of insignia that have been chosen.
     chosen: [],
     score: 0,
     highScore: 0,
-    status: "Click on each emblem once and only once."
+    status: "Click on each hall of famer once and only once."
   };
 
   scoring = name => {
 
-    // checking the value and name of the input which triggered the change
     console.log("I Clicked on ", { name });
 
     function checkIfChosen(arr, name) {
@@ -47,11 +43,10 @@ class App extends Component {
       this.setState({ status: "You already chose that one.  Start over!" });
 
       console.log(this.state.chosen);
-      // re-randomize insignia.  
+
     }
     else {
-      // if there is no match then +1 to score 
-      // We always use the setState method to update a component's state
+
       this.setState({ score: this.state.score + 1 });
       this.setState({ status: "Valid Answer!" });
       this.setState({ chosen: [...this.state.chosen, name] })
@@ -62,24 +57,23 @@ class App extends Component {
       console.log(this.state.chosen);
       if (this.state.score +1 > this.state.highScore) {
         this.setState({ highScore: this.state.score +1});
-      } // End of high score setting IF statement
-      if (this.state.score +1 === 14) {
-        this.setState({ status: "YOU WON!  Click any Emblem to play again." });
       }
-    } // End of emblem matching IF statement
-  }; // End of Scoring eventhandler
+      if (this.state.score +1 === 12) {
+        this.setState({ status: "YOU WON!  Click any hall of famer to play again." });
+      }
+    } 
+  }; 
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     let shuffledEmblems = shuffle(pic);
     return (
       <Container>
-        <Title>The History of Starfleet Insignia</Title>
+        <Title>The History of Baseball</Title>
         <div className="scoreDiv">
           <h3 className="score">{this.state.status}</h3>
           <h2 className="score">Current Score: {this.state.score}</h2>
           <h2 className="score">High Score: {this.state.highScore}</h2>
-          <h2>Winning Score: 14</h2>
+          <h2>Winning Score: 12</h2>
         </div>
         {shuffledEmblems.map(pic => (
           <ImageCard

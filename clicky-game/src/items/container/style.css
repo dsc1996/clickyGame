@@ -1,4 +1,4 @@
-    .wrapper {
+    .container {
     padding-top: 10px;
     background-color: white;
     height: 100%;
@@ -10,6 +10,7 @@
     overflow: auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3rem;
+    background-color: #232323;
   }
   
   h3 {
