@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "homepage": "https://dsc1996.github.io/clickyGame/",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
-    "homepage": "https://dsc1996.github.io/clickyGame"
+    "yarn": "^1.13.0"
   },
   "scripts": {
     "start": "react-scripts start",
