@@ -6,7 +6,7 @@ function ImageCard(props) {
         <span onClick={() => props.scoring(props.name)} className="scoring">
             <div className="card">
                 <div className="img-container">
-                    <img alt={props.name} src={props.name}/>
+                    <img alt={props.name} src={props.image}/>
                 </div>
             </div>
         </span>

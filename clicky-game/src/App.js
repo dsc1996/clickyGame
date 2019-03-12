@@ -81,13 +81,13 @@ class App extends Component {
           <h2 className="score">High Score: {this.state.highScore}</h2>
           <h2>Winning Score: 14</h2>
         </div>
-        {shuffledEmblems.map(friend => (
+        {shuffledEmblems.map(pic => (
           <ImageCard
             scoring={this.scoring}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
+            id={pic.id}
+            key={pic.id}
+            name={pic.name}
+            image={pic.image}
           />
         ))}
       </Container>

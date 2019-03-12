@@ -1,72 +1,62 @@
 [
     {
       "id": 1,
-      "name": "2160",
-      "image": "images/2160.png"
+      "name": "1",
+      "image": "gameImages/1986 WS 1694-88_Carter_NBL-186p.jpg"
     },
     {
       "id": 2,
-      "name": "2230",
-      "image": "images/2230.png"
+      "name": "2",
+      "image": "gameImages/bagwell updated thumb.jpg"
     },
     {
       "id": 3,
-      "name": "2240",
-      "image": "images/2240.png"
+      "name": "3",
+      "image": "gameImages/Berra Yogi 4267-68HTa_Misc_NBL-186p.jpg"
     },
     {
       "id": 4,
-      "name": "2250",
-      "image": "images/2250.png"
+      "name": "4",
+      "image": "gameImages/Biggio-186x220.jpg"
     },
     {
       "id": 5,
-      "name": "2250a",
-      "image": "images/2250a.png"
+      "name": "5",
+      "image": "gameImages/chipper thumb.jpg"
     },
     {
       "id": 6,
-      "name": "2250ad",
-      "image": "images/2250ad.png"
+      "name": "6",
+      "image": "gameImages/Cobb Ty 9973.95 act_PD-186p.jpg"
     },
     {
       "id": 7,
-      "name": "2260",
-      "image": "images/2260.png"
+      "name": "7",
+      "image": "gameImages/DiMaggio Joe 7570.90_H&A_NBL-254.jpg"
     },
     {
       "id": 8,
-      "name": "2270",
-      "image": "images/2270.png"
+      "name": "8",
+      "image": "gameImages/Gehrig Lou 1489-68WTFL_PD-186.jpg"
     },
     {
       "id": 9,
-      "name": "2280",
-      "image": "images/2280.png"
+      "name": "9",
+      "image": "gameImages/hoffman.thumb_.jpg"
     },
     {
       "id": 10,
-      "name": "2340",
-      "image": "images/2340.png"
+      "name": "10",
+      "image": "gameImages/Morris Jack 3520-85_HS_NBL_0.jpg"
     },
     {
       "id": 11,
-      "name": "2370",
-      "image": "images/2370.png"
+      "name": "11",
+      "image": "gameImages/Ruth-Babe-4065.99_HS_PD_0.jpg "
     },
     {
       "id": 12,
-      "name": "2370a",
-      "image": "images/2370a.png"
-    },
-    {
-      "id": 13,
-      "name": "2390",
-      "image": "images/2390.png"
-    },
-    {
-      "id": 14,
-      "name": "2800",
-      "image": "images/2800.png"
+      "name": "12",
+      "image": "gameImages/appling.png"
     }
   ]
